@@ -17,8 +17,8 @@
 //echo StrRevers("abc");
 $str="abc";
  
- $str256=str_repeat($str, 85);
- $str256="a".$str256;
+ $str256=str_repeat($str, 85); //85*3=255
+ $str256="a".$str256; //255+1 char
  //echo $str256;
  echo StrRevers($str256);
 ?>
